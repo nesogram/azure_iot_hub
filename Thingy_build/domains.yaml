@@ -1,9 +1,0 @@
-default: azure_iot_hub
-build_dir: C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build
-domains:
-  - name: azure_iot_hub
-    build_dir: C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/azure_iot_hub
-  - name: mcuboot
-    build_dir: C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/mcuboot
-flash_order:
-  - azure_iot_hub

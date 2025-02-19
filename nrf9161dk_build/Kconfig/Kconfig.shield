@@ -1,2 +1,0 @@
-osource "C:/ncs/Nrf_Projects/azure_iot_hub/boards/shields/*/Kconfig.shield"
-osource "C:/ncs/v2.9.0/nrf/boards/shields/*/Kconfig.shield"
