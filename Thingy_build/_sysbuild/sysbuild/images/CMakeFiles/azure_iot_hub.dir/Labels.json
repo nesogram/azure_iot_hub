@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/CMakeFiles/azure_iot_hub"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/CMakeFiles/azure_iot_hub.rule"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/CMakeFiles/azure_iot_hub-complete.rule"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/azure_iot_hub-prefix/src/azure_iot_hub-stamp/azure_iot_hub-build.rule"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/azure_iot_hub-prefix/src/azure_iot_hub-stamp/azure_iot_hub-configure.rule"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/azure_iot_hub-prefix/src/azure_iot_hub-stamp/azure_iot_hub-download.rule"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/azure_iot_hub-prefix/src/azure_iot_hub-stamp/azure_iot_hub-install.rule"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/azure_iot_hub-prefix/src/azure_iot_hub-stamp/azure_iot_hub-mkdir.rule"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/azure_iot_hub-prefix/src/azure_iot_hub-stamp/azure_iot_hub-patch.rule"
+		},
+		{
+			"file" : "C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/_sysbuild/sysbuild/images/azure_iot_hub-prefix/src/azure_iot_hub-stamp/azure_iot_hub-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"azure_iot_hub"
+		],
+		"name" : "azure_iot_hub"
+	}
+}

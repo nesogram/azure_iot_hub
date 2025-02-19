@@ -1,0 +1,29 @@
+# Available runners configured by board.cmake.
+runners:
+- nrfjprog
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: nrfjprog
+
+# Default debug runner if --runner is not given.
+debug-runner: jlink
+
+# Common runner configuration values.
+config:
+  board_dir: C:/ncs/v2.9.0/nrf/boards/nordic/thingy91
+  # Build outputs:
+  elf_file: zephyr.elf
+  hex_file: C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/merged.hex
+  bin_file: C:/ncs/Nrf_Projects/azure_iot_hub/Thingy_build/azure_iot_hub/zephyr/zephyr.signed.bin
+  # Host tools:
+  gdb: C:/ncs/toolchains/b620d30767/opt/zephyr-sdk/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb.exe
+
+# Runner specific arguments
+args:
+  nrfjprog:
+    - --softreset
+  jlink:
+    - --dt-flash=y
+    - --device=cortex-m33
+    - --speed=4000

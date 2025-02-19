@@ -1,0 +1,20 @@
+{
+    "format-version": 1,
+    "time": 1739972933,
+    "files": [
+        {
+            "type": "application",
+            "board": "actinius_icarus",
+            "soc": "nrf9160",
+            "load_address": 98304,
+            "image_index": "0",
+            "slot_index_primary": "1",
+            "slot_index_secondary": "2",
+            "version_MCUBOOT": "0.0.0+0",
+            "size": 236223,
+            "file": "azure_iot_hub.signed.bin",
+            "modtime": 1739972932
+        }
+    ],
+    "name": "azure_iot_hub"
+}

@@ -1,0 +1,9 @@
+default: azure_iot_hub
+build_dir: C:/ncs/Nrf_Projects/azure_iot_hub/nrf9161dk_build
+domains:
+  - name: azure_iot_hub
+    build_dir: C:/ncs/Nrf_Projects/azure_iot_hub/nrf9161dk_build/azure_iot_hub
+  - name: mcuboot
+    build_dir: C:/ncs/Nrf_Projects/azure_iot_hub/nrf9161dk_build/mcuboot
+flash_order:
+  - azure_iot_hub
